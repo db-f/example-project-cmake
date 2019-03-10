@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.103.234.40:5000/db-f/example-project-cmake
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: example-project-cmake
